@@ -1,0 +1,7 @@
+#!/bin/bash
+# 2 image name 3 maxx 4 maxy 5 dispx 6 dispy 7 length x 8 length y
+# 9 min x 10 min y 11 red 12 green 13 blue 14 output
+python dots.py fft.png 605 440 72 23 1 1.4 0 -0.2 255 0 0 fft-red.txt
+echo red
+python dots.py fft.png 605 440 72 23 1 1.4 0 -0.2 0 192 0 fft-green.txt
+echo green
